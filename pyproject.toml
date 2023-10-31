@@ -108,3 +108,6 @@ source = "vcs"
 
 [tool.hatch.build.hooks.vcs]
 version-file = "_version.py"
+
+[tool.poetry.scripts]
+spatialdata_io = 'spatialdata_io.main:main'
